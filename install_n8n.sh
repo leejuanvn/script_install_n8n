@@ -102,7 +102,7 @@ version: '3.8'
 
 services:
   n8n:
-    image: n8n.io/n8n
+    image: n8nio/n8n
     restart: always
     environment:
       - DB_TYPE=postgresdb
